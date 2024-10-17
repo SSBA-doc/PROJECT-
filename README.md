@@ -2,8 +2,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
-
+import '@blockchain/contracts/token/ERC20/ERC20.sol';
 /// @title  An implement of Fake USDT for testing creation of a liquidity pool in Uniswap V2.
 
 contract FakeUSDT is ERC20 {
